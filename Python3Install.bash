@@ -30,7 +30,7 @@ cd ~
 python3.7 --version
 
 # Install Python Package Manager Pip
-sudo apt install python-pip
+sudo apt-get -y install python-pip
 pip install --upgrade pip
 
 
@@ -52,10 +52,10 @@ pip install jupyter
 
 
 #install curl
-sudo apt install curl
+sudo apt-get -y install curl
 
 # install screen
-sudo apt install screen
+sudo apt-get -y install screen
 sudo apt-get update && apt-get upgrade
 
 #install Azure CLI

@@ -2,17 +2,17 @@
 
 # Install and update the basics
 sudo apt update
-sudo apt install software-properties-common
-sudo apt-get install build-essential
+sudo apt-get -y install software-properties-common
+sudo apt-get -y install install build-essential
 
 #install open ssl
-sudo apt-get install libssl-dev libffi-dev
+sudo apt-get -y install libssl-dev libffi-dev
 
 #install zlib
-sudo apt-get install zlib1g-dev
+sudo apt-get -y install zlib1g-dev
 
 #install Git
-sudo apt install git
+sudo apt-get -y install git
 
 # Install Python 3.7.4 from Source
 # https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/

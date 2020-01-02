@@ -88,7 +88,6 @@ sudo pip3 install pyodbc
 
 # install screen
 sudo apt-get -y install screen
-sudo a
 
 #apt-get update && apt-get upgrade
 sudo apt-get -y update

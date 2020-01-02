@@ -57,7 +57,8 @@ sudo pip3 install jupyter
 sudo pip3 install pandas
 
 # Install Scikit-learn
-sudo pip3 install scikit-learn
+#sudo pip3 install scikit-learn
+sudo pip3 install intel-scikit-learn
 
 # PYODBC Prerequisite:
 sudo apt-get -y install unixodbc-dev

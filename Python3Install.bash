@@ -88,3 +88,5 @@ sudo apt-get install code # or code-insiders
 # OR
 pip install --user azure-cli
 
+
+# https://stackoverflow.com/questions/3402168/permanently-add-a-directory-to-pythonpath

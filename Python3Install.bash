@@ -16,7 +16,7 @@ sudo apt-get -y install git
 
 # Install Python 3.7.4 from Source
 # https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/
-sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev
+sudo apt-get -y install build-essential zlib1g-dev libncurses5-dev libgdbm-dev
 wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
 tar -xf Python-3.7.4.tgz
 cd Python-3.7.4

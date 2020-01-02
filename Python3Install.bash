@@ -53,6 +53,9 @@ sudo pip3 install ipython
 #Install Jupyter
 sudo pip3 install jupyter
 
+# Install pandas
+sudo pip3 install pandas
+
 
 #install curl
 sudo apt-get -y install curl

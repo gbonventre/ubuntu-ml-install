@@ -31,8 +31,8 @@ cd ~
 python3.7 --version
 
 # Install Python Package Manager Pip
-sudo apt-get -y install python-pip
-pip install --upgrade pip
+sudo apt-get -y install python3-pip
+#pip install --upgrade pip
 
 
 #sudo apt-get -y install python3.7

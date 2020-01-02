@@ -1,4 +1,4 @@
-#bash script to install Python 3.7.4 on Ubuntu 18
+#bash script to install Python 3.7.4 on Ubuntu 18.04.3 LTS
 
 # Install and update the basics
 sudo apt update

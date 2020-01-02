@@ -84,6 +84,7 @@ source ~/.bashrc
 # optional: for unixODBC development headers
 sudo apt-get -y install unixodbc-dev
 sudo pip3 install pyodbc
+sudo pip3 install pymssql
 
 
 # install screen

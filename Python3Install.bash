@@ -14,6 +14,9 @@ sudo apt-get -y install zlib1g-dev
 #install Git
 sudo apt-get -y install git
 
+#install curl
+sudo apt-get -y install curl
+
 # Install Python 3.7.4 from Source
 # https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/
 sudo apt-get -y install build-essential zlib1g-dev libncurses5-dev libgdbm-dev
@@ -60,13 +63,28 @@ sudo pip3 install pandas
 #sudo pip3 install scikit-learn
 sudo pip3 install intel-scikit-learn
 
-# PYODBC Prerequisite:
+# PYODBC:
+#https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver15
+sudo su
+curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
+# Ubuntu 18.4
+curl https://packages.microsoft.com/config/ubuntu/18.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
+#Ubuntu 18.10
+#curl https://packages.microsoft.com/config/ubuntu/18.10/prod.list > /etc/apt/sources.list.d/mssql-release.list
+#Ubuntu 19.04
+#curl https://packages.microsoft.com/config/ubuntu/19.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
+exit
+sudo apt-get update
+sudo ACCEPT_EULA=Y apt-get install msodbcsql17
+# optional: for bcp and sqlcmd
+sudo ACCEPT_EULA=Y apt-get install mssql-tools
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+source ~/.bashrc
+# optional: for unixODBC development headers
 sudo apt-get -y install unixodbc-dev
 sudo pip3 install pyodbc
 
-
-#install curl
-sudo apt-get -y install curl
 
 # install screen
 sudo apt-get -y install screen

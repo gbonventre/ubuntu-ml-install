@@ -40,10 +40,11 @@ sudo apt-get -y install python3-pip
 #sudo apt-get -y install python-dev
 
 #Install Python Development
-sudo apt-get -y install python-dev
+sudo apt-get -y install python3-dev
 
 # Install Virtual Env
-sudo apt install virtualenv
+sudo pip3 install virtualenv
+#sudo apt install virtualenv
 
 #Install Ipython
 apt-get -y install ipython ipython-notebook

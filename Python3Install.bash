@@ -77,6 +77,7 @@ sudo apt-get install code # or code-insiders
 #install Azure CLI
 #curl -sl httls://aka.ms/InstallAzureCLIDeb | sudo bash
 # OR
+# https://blogs.msdn.microsoft.com/pkirchner/2017/04/28/installing-azure-cli-2-0-workaround-for-error-installing-pyyaml/
 #sudo apt-get update
 #sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg
 #curl -sL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc.gpg > /dev/null

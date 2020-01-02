@@ -63,7 +63,7 @@ sudo pip3 install pandas
 #sudo pip3 install scikit-learn
 sudo pip3 install intel-scikit-learn
 
-# PYODBC:
+# PYODBC and SQL Server Related Install:
 #https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-ver15
 sudo su
 curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
@@ -84,6 +84,10 @@ source ~/.bashrc
 # optional: for unixODBC development headers
 sudo apt-get -y install unixodbc-dev
 sudo pip3 install pyodbc
+
+
+#psycopg2 for PostgreSQL
+sudo pip3 install psycopg2-binary
 
 
 # install screen

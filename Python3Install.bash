@@ -47,10 +47,11 @@ sudo pip3 install virtualenv
 #sudo apt install virtualenv
 
 #Install Ipython
-apt-get -y install ipython ipython-notebook
+sudo pip3 install ipython
+#apt-get -y install ipython ipython-notebook
 
 #Install Jupyter
-pip install jupyter
+sudo pip3 install jupyter
 
 
 #install curl

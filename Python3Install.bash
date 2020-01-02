@@ -20,6 +20,7 @@ sudo apt-get -y install build-essential zlib1g-dev libncurses5-dev libgdbm-dev
 wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
 tar -xf Python-3.7.4.tgz
 cd Python-3.7.4
+# The enable-optimizations flag turns on profile optimizations which add 20-40 minutes of install time but the Python Code executes about 10% faster
 ./configure --enable-optimizations
 make -j 8
 sudo make altinstall

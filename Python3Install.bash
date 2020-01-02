@@ -3,7 +3,7 @@
 # Install and update the basics
 sudo apt update
 sudo apt-get -y install software-properties-common
-sudo apt-get -y install install build-essential
+sudo apt-get -y install build-essential
 
 #install open ssl
 sudo apt-get -y install libssl-dev libffi-dev

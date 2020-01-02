@@ -59,7 +59,12 @@ sudo apt-get -y install curl
 
 # install screen
 sudo apt-get -y install screen
-sudo apt-get update && apt-get upgrade
+sudo a
+
+#apt-get update && apt-get upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
+
 
 #install Azure CLI
 curl -sl httls://aka.ms/InstallAzureCLIDeb | sudo bash

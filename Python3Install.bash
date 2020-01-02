@@ -56,6 +56,10 @@ sudo pip3 install jupyter
 # Install pandas
 sudo pip3 install pandas
 
+# PYODBC Prerequisite:
+sudo apt-get -y install unixodbc-dev
+sudo pip3 install pyodbc
+
 
 #install curl
 sudo apt-get -y install curl
